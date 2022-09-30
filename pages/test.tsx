@@ -67,7 +67,7 @@ const Home: NextPage = () => {
             </h1>
             <p className="leading-normal text-base md:text-2xl mb-8 text-center md:text-left slide-in-bottom-subtitle">
               The funiest, challanging and most rewarding workshop you will ever
-              attend
+              attend.
             </p>
 
             <p className="text-blue-400 font-bold pb-8 lg:pb-6 text-center md:text-left fade-in">
