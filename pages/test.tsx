@@ -70,16 +70,20 @@ const Home: NextPage = () => {
               attend.
             </p>
 
-            <p className="text-blue-400 font-bold pb-8 lg:pb-6 text-center md:text-left fade-in">
-              Join the Discord:
-            </p>
             <div className="flex w-full justify-center md:justify-start pb-0 lg:pb-0 fade-in">
-              <Image
-                src="/app-store.svg"
-                className="h-12 pr-4 bounce-top-icons"
-                width={100}
-                height={50}
-              ></Image>
+              <Link href="https://discord.com/">
+                <p className="text-blue-400 font-bold  pt-8 pb-8 pr-4 lg:pb-6 text-center md:text-left fade-in">
+                  Join the Discord:
+                </p>
+              </Link>
+              <Link href="https://discord.com/">
+                <Image
+                  src="/icons8-discord-new.svg"
+                  className="h-12 pr-4 bounce-top-icons"
+                  width={50}
+                  height={50}
+                ></Image>
+              </Link>
             </div>
           </div>
 
