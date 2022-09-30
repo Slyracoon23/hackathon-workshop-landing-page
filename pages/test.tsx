@@ -73,7 +73,7 @@ const Home: NextPage = () => {
             <p className="text-blue-400 font-bold pb-8 lg:pb-6 text-center md:text-left fade-in">
               Join the Discord:
             </p>
-            <div className="flex w-full justify-center md:justify-start pb-24 lg:pb-0 fade-in">
+            <div className="flex w-full justify-center md:justify-start pb-0 lg:pb-0 fade-in">
               <Image
                 src="/app-store.svg"
                 className="h-12 pr-4 bounce-top-icons"
@@ -83,7 +83,7 @@ const Home: NextPage = () => {
             </div>
           </div>
 
-          <div className="w-full xl:w-3/5 py-6 overflow-y-hidden">
+          <div className="w-full xl:w-3/5 py-0 overflow-y-hidden">
             <Image
               className="w-5/6 mx-auto lg:mr-0 slide-in-bottom"
               src="/devices.svg"
