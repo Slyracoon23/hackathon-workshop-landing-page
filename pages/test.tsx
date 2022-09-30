@@ -26,7 +26,7 @@ const Home: NextPage = () => {
               >
                 <path d="M10 20a10 10 0 1 1 0-20 10 10 0 0 1 0 20zm-5.6-4.29a9.95 9.95 0 0 1 11.2 0 8 8 0 1 0-11.2 0zm6.12-7.64l3.02-3.02 1.41 1.41-3.02 3.02a2 2 0 1 1-1.41-1.41z" />
               </svg>{" "}
-              APP
+              Hackathon Workshops
             </a>
 
             <div className="flex w-1/2 justify-end content-center">
@@ -83,13 +83,25 @@ const Home: NextPage = () => {
             </div>
           </div>
 
-          <div className="w-full xl:w-3/5 py-0 overflow-y-hidden">
+          {/* <div className="w-full xl:w-3/5 py-0 overflow-y-hidden">
             <Image
               className="w-5/6 mx-auto lg:mr-0 slide-in-bottom"
               src="/devices.svg"
               width={800}
               height={800}
             ></Image>
+          </div> */}
+
+          <div className="w-full xl:w-3/5 py-0 overflow-y-hidden">
+            <iframe
+              width="656"
+              height="369"
+              src="https://www.youtube.com/embed/Hfnssy-kcqQ"
+              title="YouTube video player"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
           </div>
 
           <div className="w-full pt-16 pb-6 text-sm text-center md:text-left fade-in">
@@ -97,7 +109,7 @@ const Home: NextPage = () => {
               className="text-gray-500 no-underline hover:no-underline"
               href="#"
             >
-              &copy; App 2019
+              &copy; Hackathon Workshop
             </Link>
           </div>
         </div>
